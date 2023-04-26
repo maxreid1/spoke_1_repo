@@ -1,0 +1,57 @@
+databaseName: null
+databasePassword: ''
+databaseUsername: null
+dynamicallyQueryable: false
+editPrivilege: null
+environment: production
+host: null
+options:
+  amazon_secret_access_key: ''
+  api_key: ''
+  application_key: ''
+  athena_secret_access_key: ''
+  auth0_access_token: ''
+  auth0_clientSecret: ''
+  authentication: oauth2
+  aws_secret_access_key: ''
+  basic_password: ''
+  ca_cert: ''
+  client_cert: ''
+  client_cert_and_key: ''
+  client_key: ''
+  connectionString: ''
+  customHeaders:
+    - - Authorization
+      - Bearer OAUTH2_TOKEN
+  customQueryParameters:
+    - - ''
+      - ''
+  dynamo_secret_access_key: ''
+  googleToken: ''
+  oauth1_consumer_secret: ''
+  oauth2_access_token: ''
+  oauth2_access_token_url: https://slack.com/api/oauth.v2.access
+  oauth2_auth_url: https://slack.com/oauth/v2/authorize
+  oauth2_callback_url: '{{ env.BASE_DOMAIN }}/oauth/user/oauthcallback'
+  oauth2_client_id: '4986079564983.4994093629542'
+  oauth2_client_secret: ''
+  oauth2_refresh_token: ''
+  oauth2_scope: >-
+    app_mentions:read channels:history channels:join channels:manage
+    channels:read chat:write chat:write.customize chat:write.public
+    groups:history groups:read groups:write users:read users:read.email
+    users:write
+  oauth2_share_user_credentials: false
+  privateKey: ''
+  privateKeyPass: ''
+  s3_secret_access_key_id: ''
+  serviceAccountKey: ''
+  spec: https://specs.tryretool.com/specs/slack/2.0/1.7.0.json
+  sshPassword: ''
+  user_auth_key: ''
+  version: 2.0.0
+port: null
+ssl: null
+type: slack
+uuid: 4ed6f93e-7336-4368-9d8e-891a4790f308
+version: 1.0.0
